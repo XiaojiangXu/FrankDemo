@@ -23,16 +23,18 @@ class Human {
 		System.out.println("Ne Zha:I'm born, " + s);
 	}
 
-	public void breath( ) {
+	private void breath() {
 		System.out.println("hu...hu...");
 	}
-public void breath(int rep) {
+
+	public void breath(int rep) {
 		int i;
-		for(i = 0;i < rep;i++){
+		for (i = 0; i < rep; i++) {
 			System.out.println("lu...lu...");
 		}
-		
+
 	}
+
 	public void repeatBreath(int rep) {
 		int i;
 		for (i = 0; i < rep; i++) {
@@ -49,5 +51,5 @@ public void breath(int rep) {
 		return height;
 	}
 
-	int height = 175;
+	private int height = 175;
 }
