@@ -5,6 +5,10 @@ public class Test {
 		int a;
 		a = 5;
 		System.out.println(a); // print an integer
+		
+		System.out.println("Declare in the middle:");
+		int d = 10;
+		System.out.println(d);
 
 		System.out.println("Declare in the middle:");
 		int[] b = new int[] { 1, 3, 5, 7, 9 };
