@@ -33,7 +33,6 @@ class Human {
 		for (i = 0; i < rep; i++) {
 			System.out.println("lu...lu...");
 		}
-
 	}
 
 	public void repeatBreath(int rep) {
@@ -45,7 +44,6 @@ class Human {
 
 	public void growHeight(int h) {
 		height = height + h;
-
 	}
 
 	int getHeight() {
