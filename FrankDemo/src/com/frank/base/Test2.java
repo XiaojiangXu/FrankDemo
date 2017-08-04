@@ -1,3 +1,4 @@
+package com.frank.base;
 
 public class Test2 {
 

@@ -1,3 +1,4 @@
+package com.frank.base;
 public class Sum {
 	public static void main(String[] args) {
 		int sum = 0;

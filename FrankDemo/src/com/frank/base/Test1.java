@@ -1,3 +1,4 @@
+package com.frank.base;
 public class Test1 {
 	public static void main(String[] args) {
 		Human aPerson = new Human(160);

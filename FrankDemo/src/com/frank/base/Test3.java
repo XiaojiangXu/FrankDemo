@@ -1,3 +1,4 @@
+package com.frank.base;
 public class Test3 {
 	public static void main(String[] args) {
 		MusicCup musiccup = new MusicCup();

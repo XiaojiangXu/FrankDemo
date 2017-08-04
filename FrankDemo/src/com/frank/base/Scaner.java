@@ -1,3 +1,4 @@
+package com.frank.base;
 import java.util.Scanner;
 
 public class Scaner {
