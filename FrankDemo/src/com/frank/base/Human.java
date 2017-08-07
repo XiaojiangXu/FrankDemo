@@ -4,6 +4,7 @@ public class Human {
 	public Human(int h) {
 		height = h;
 		System.out.println("I'm born");
+		Human.population = Human.population +1;
 	}
 
 	public Human(int h, String s) {

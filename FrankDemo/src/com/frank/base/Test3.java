@@ -1,7 +1,7 @@
 package com.frank.base;
 public class Test3 {
 	public static void main(String[] args) {
-		MusicCup musiccup = new MusicCup();
+		MusicCups musiccup = new MusicCups();
 		musiccup.addWater(5);
 		System.out.println(musiccup.waterContent());
 		musiccup.drinkWater(3);
@@ -11,7 +11,7 @@ public class Test3 {
 
 }
 
-class MusicCup implements Cup, MusicPlayer {
+class MusicCups implements Cup, MusicPlayer {
 
 	public void addWater(int w) {
 		this.water = this.water + w;
