@@ -9,46 +9,14 @@ public class Test1 {
 		aPerson.repeatBreath(10);
 		Human neZha = new Human(150, "shit");
 		System.out.println(neZha.getHeight());
+		
+		Women aWomen = new Women(180);
+		aWomen.growHeight(120);
+		System.out.println(aWomen.getHeight());
+		
+		System.out.println(Human.getPopulation());
+		Human bPerson = new Human(169);
+		System.out.println(bPerson.getPopulation());
 	}
 
-}
-
-class Human {
-	public Human(int h) {
-		height = h;
-		System.out.println("I'm born");
-	}
-
-	public Human(int h, String s) {
-		height = h;
-		System.out.println("Ne Zha:I'm born, " + s);
-	}
-
-	private void breath() {
-		System.out.println("hu...hu...");
-	}
-
-	public void breath(int rep) {
-		int i;
-		for (i = 0; i < rep; i++) {
-			System.out.println("lu...lu...");
-		}
-	}
-
-	public void repeatBreath(int rep) {
-		int i;
-		for (i = 0; i < rep; i++) {
-			breath();
-		}
-	}
-
-	public void growHeight(int h) {
-		height = height + h;
-	}
-
-	int getHeight() {
-		return height;
-	}
-
-	private int height = 175;
 }
