@@ -1,6 +1,6 @@
 package com.frank.advance;
 
-public class Test {
+public class Test1{
 	public static void main(String[] args) {
 		Battery aBattery = new Battery();
 		aBattery.chargeBattery(0.5);
