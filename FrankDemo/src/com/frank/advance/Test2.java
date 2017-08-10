@@ -7,11 +7,12 @@ import java.io.IOException;
 public class Test2 {
 	public static void main(String[] args) {
 		try{
+			//BufferedReader br = new BufferedReader(new FileReader("C:/Users/Administrator/Desktop/file.txt"));
 			BufferedReader br = new BufferedReader(new FileReader("file.txt"));
 			String line = br.readLine();
 			while (line != null) {
 				System.out.println(line);
-				line = br.readLine();				
+				line = br.readLine();
 			}
 			br.close();
 		}
