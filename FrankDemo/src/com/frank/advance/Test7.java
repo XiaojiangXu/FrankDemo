@@ -60,6 +60,6 @@ class Booth extends Thread{
 				break;
 			}
 		}
-		System.out.println(this.getName() + "I sold:"+count);
+		System.out.println(this.getName() + " I sold:"+count);
 	}
 }
