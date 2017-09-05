@@ -1,0 +1,3 @@
+时间:2017-09-05 11:02:48
+当前文件绝对路径:D:\Git\FrankDemo\FrankDemo\path4\path4\file1.txt
+当前文件相对路径:path4\path4\file1.txt
